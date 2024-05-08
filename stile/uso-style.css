@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background-image: url('https://img.atlasobscura.com/AQNDHdjtmOKssT1TkXuZ_-lU99aLNXsu9mNrFIeofRE/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy9mOTZmZWFlOTVj/ZDNhMWZlMDVfSXZh/bl9Db25zdGFudGlu/b3ZpY2hfQWl2YXpv/dnNreV8tX1N1bnNl/dF9vdmVyX3RoZV9H/b2xkZW5fSG9ybi5K/UEc.jpg');;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+    size: 50%;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+
+  .card{
+    width: 50%;
+    height: 60vh;
+    margin: 50px auto;
+    border-radius: 10px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+    font:bolder;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+    font: bold;
+  }
